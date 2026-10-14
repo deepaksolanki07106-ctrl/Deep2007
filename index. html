@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मेरी वेबसाइट</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>मेरी शानदार वेबसाइट</h1>
+    <p>मेरी वेबसाइट पर आपका स्वागत है!</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#school">School</a>
+    <a href="#photos">Photos</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="home">
+    <h2>नमस्ते दोस्तों!</h2>
+    <p>यह मेरी खुद की बनाई हुई वेबसाइट है।</p>
+    <button onclick="showMessage()">मुझे दबाओ</button>
+    <p id="message"></p>
+  </main>
+
+  <section id="school">
+    <h2>मेरा स्कूल</h2>
+    <p>Government HSS Ratatalai</p>
+  </section>
+
+  <section id="photos">
+    <h2>फोटो गैलरी</h2>
+    <p>यहाँ अपनी फोटो जोड़ेंगे।</p>
+  </section>
+
+  <section id="products">
+    <h2>हमारे प्रोडक्ट</h2>
+    <p>यहाँ जूते और चप्पल दिखाएँगे।</p>
+  </section>
+
+  <section id="contact">
+    <h2>संपर्क करें</h2>
+    <p>यहाँ संपर्क की जानकारी जोड़ेंगे।</p>
+  </section>
+
+  <footer>
+    <p>मेरी वेबसाइट © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
